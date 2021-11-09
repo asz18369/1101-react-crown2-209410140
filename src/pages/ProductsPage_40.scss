@@ -1,0 +1,21 @@
+// SHOP-PAGE (Hats, Jackets, Sneakers, Womens, Mens)
+.shop-page {
+  .collection-page {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      font-size: 38px;
+      margin: 15px auto;
+    }
+
+    .items {
+      // display: flex;
+      // justify-content: flex-start;
+      // flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+    }
+  }
+}
